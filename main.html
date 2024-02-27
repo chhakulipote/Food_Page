@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body style="background-color: #f0f0f0; font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+
+    <table style="width: 100%; max-width: 500px; ">
+        <tr>
+            <td colspan="2" style="background-color: rgb(157, 193, 181); padding: 10px; text-align: center;">
+                <img src="/download.jpeg" style="width: 150px; height: 150px; border-radius: 50%;" alt="POTE_KITCHEN">
+                <h2 style="margin-top: 10px;">HEY LET'S MEET US IN KITCHEN!</h2>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: rgb(157, 193, 181); padding: 10px; text-align: center;">
+                <a href="/index.html" style="margin-right: 30px; text-decoration: none; color: black;">HOME</a>
+                <a href="/about.html" style="margin-right: 30px; text-decoration: none; color: black;">ABOUT</a>
+                <a href="/main.html" style="margin-right: 30px; text-decoration: none; color: black;">CONTACT</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: rgb(152, 205, 205); padding: 20px; border-radius: 10px;">
+                <form>
+                    <h2 style="text-align: center;">Login</h2>
+                    <label for="username">Full Name:</label><br>
+                    <input type="text" id="username" placeholder="Username" style="height: 30px; width: calc(100% - 40px); margin-bottom: 10px;">
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" placeholder="Password" style="height: 30px; width: calc(100% - 40px); margin-bottom: 10px;">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="Email" style="height: 30px; width: calc(100% - 40px); margin-bottom: 10px;">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" rows="4" placeholder="HEY!" style="width: calc(100% - 40px); margin-bottom: 10px;"></textarea>
+                    <label>Gender:</label><br>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <input type="radio" name="gender" value="other"> Other
+                    <br><br>
+                    <label for="date">Date:</label><br>
+                    <input type="datetime-local" id="date" style="height: 30px; width: calc(100% - 40px); margin-bottom: 10px;"><br><br>
+                    <label for="color">Color:</label><br>
+                    <input type="color" id="color" style="height: 30px; width: calc(100% - 40px); margin-bottom: 10px;"><br><br>
+                    <label>Image:</label><br>
+                    <input type="file" accept="image/*" style="height: 30px; width: calc(100% - 40px); margin-bottom: 10px;"><br><br>
+                    <div style="display: flex; justify-content: space-between;">
+                        <button type="reset" style="height: 30px; width: 48%;">Reset</button>
+                        <button type="submit" style="height: 30px; width: 48%;">Submit</button>
+                    </div>
+                    <input type="checkbox" id="checkbox" style="height: 30px; width: auto; margin-top: 10px;"> Remember me
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
